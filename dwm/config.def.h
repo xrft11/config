@@ -8,11 +8,11 @@ static const int showbar            = 1;	/* 0 means no bar */
 static const int topbar             = 1;	/* 0 means bottom bar */
 static const char *fonts[]          = { "Hack:pixelsize=15:antialias=true:autohint=true", "Font Awesome 5 Free Solid:size=11:antialias=true:autohint=true" };
 static const char col_gray1[]       = "#21242b";            /* bar background */
-static const char col_gray2[]       = "#5c6370";            /* unfocused window border */
-static const char col_gray3[]       = "#abb2bf";            /* unfocused tag text */
+static const char col_gray2[]       = "#4b5263";            /* unfocused window border */
+static const char col_gray3[]       = "#4b5263";            /* unfocused tag text */
 static const char col_gray4[]       = "#dfe5f2";            /* focused tag text */
-static const char col_gray5[]       = "#5c6370";            /* focused tag background */
-static const char col_gray6[]       = "#abb2bf";            /* focused window border */
+static const char col_gray5[]       = "#21242b";            /* focused tag background */
+static const char col_gray6[]       = "#dfe5f2";            /* focused window border */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
         [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -30,7 +30,7 @@ static const char *tagsel[][2] = {
         { "#e387ff", "#21242b" },
 };
 
-static const unsigned int ulinepad	= 5;	/* horizontal padding between the underline and tag */
+static const unsigned int ulinepad	= 1;	/* horizontal padding between the underline and tag */
 static const unsigned int ulinestroke	= 1;	/* thickness / height of the underline */
 static const unsigned int ulinevoffset	= 0;	/* how far above the bottom of the bar the line should appear */
 static const int ulineall 		= 0;	/* 1 to show underline on all tags, 0 for just the active ones */
