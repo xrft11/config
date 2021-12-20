@@ -8,7 +8,7 @@
 static char *font = "Hack:size=15:antialias=true:autohint=true";
 
 /* disable bold, italic and roman fonts globally */
-int disablebold = 1;
+int disablebold = 0;
 int disableitalic = 0;
 int disableroman = 0;
 
@@ -84,7 +84,7 @@ const int boxdraw_braille = 1;
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
  */
-static unsigned int blinktimeout = 800;
+static unsigned int blinktimeout = 500;
 
 /*
  * thickness of underline and bar cursors
