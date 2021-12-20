@@ -6,7 +6,7 @@ static const unsigned int gappx     = 35;	/* gaps between windows */
 static const unsigned int snap      = 35;	/* snap pixel */
 static const int showbar            = 1;	/* 0 means no bar */
 static const int topbar             = 1;	/* 0 means bottom bar */
-static const char *fonts[]          = { "Hack:pixelsize=15:antialias=true:autohint=true", "Font Awesome 5 Free Solid:size=11:antialias=true:autohint=true" };
+static const char *fonts[]          = { "Hack:size=15:antialias=true:autohint=true", "Font Awesome 5 Free Solid:size=15:antialias=true:autohint=true" };
 static const char col_gray1[]       = "#21242b";            /* bar background */
 static const char col_gray2[]       = "#4b5263";            /* unfocused window border */
 static const char col_gray3[]       = "#4b5263";            /* unfocused tag text */
