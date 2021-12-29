@@ -4,9 +4,9 @@ window:
     y: 18
 
 scrolling:
-  history:  50000
+  history:  80000
 
-  multiplier: 3
+  multiplier: 8
 
 font:
   normal:
