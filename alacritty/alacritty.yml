@@ -1,7 +1,7 @@
 window:
   padding:
-    x: 5
-    y: 5
+    x: 18
+    y: 18
 
 scrolling:
   history:  50000
@@ -29,7 +29,7 @@ font:
 
     style: Bold Italic
 
-  size: 11
+  size: 18
 
 colors:
   primary:
@@ -69,7 +69,7 @@ selection:
 
 cursor:
   style:
-    shape: Block
+    shape: Beam
 
     blinking: On
 
