@@ -5,15 +5,15 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:size=15:antialias=true:autohint=true";
-static char *font2[] = { "Font Awesome 5 Free Solid:size=15:antialias=true:autohint=true" };
+static char *font = "Hack:pixelsize=18:antialias=true:autohint=true";
+static char *font2[] = { "Font Awesome 5 Free Solid:pixelsize=18:antialias=true:autohint=true" };
 
 /* disable bold, italic and roman fonts globally */
 int disablebold = 0;
 int disableitalic = 0;
 int disableroman = 0;
 
-static int borderpx = 15;
+static int borderpx = 18;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -85,7 +85,7 @@ const int boxdraw_braille = 1;
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
  */
-static unsigned int blinktimeout = 500;
+static unsigned int blinktimeout = 800;
 
 /*
  * thickness of underline and bar cursors
@@ -205,6 +205,7 @@ static uint forcemousemod = ShiftMask;
  */
 ResourcePref resources[] = {
 		{ "font",         STRING,  &font },
+		{ "font2",        STRING,  &font2 },
 		{ "color0",       STRING,  &colorname[0] },
 		{ "color1",       STRING,  &colorname[1] },
 		{ "color2",       STRING,  &colorname[2] },
