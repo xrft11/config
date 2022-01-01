@@ -4,7 +4,7 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom        */
 static int centered = 1;                    /* -c option; centers dmenu on screen               */
 static int min_width = 800;                 /* minimum width when centered                      */
-static const char *fonts[] = { "Hack:pixelsize=18:antialias=true:autohint=true" };
+static const char *fonts[] = { "Roboto Mono:pixelsize=18:antialias=true:autohint=true" };
 static const char col_bg[] = { "#21242b" };
 static const char col_fg[] = { "#abb2bf" };
 static const char sel_fg[] = { "#dfe5f2" };
