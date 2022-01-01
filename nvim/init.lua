@@ -29,7 +29,6 @@ vim.o.wildmenu = true
 vim.o.smarttab = true
 vim.o.smartcase = true
 vim.o.incsearch = true
-vim.o.guicursor = ''
 vim.o.cmdheight = 1
 vim.o.expandtab = true
 vim.o.laststatus = 0
