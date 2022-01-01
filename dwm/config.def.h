@@ -7,12 +7,12 @@ static const unsigned int snap      = 18;	/* snap pixel */
 static const int showbar            = 1;	/* 0 means no bar */
 static const int topbar             = 1;	/* 0 means bottom bar */
 static const char *fonts[]          = { "Roboto Mono:pixelsize=18:antialias=true:autohint=true", "Font Awesome 5 Free Solid:pixelsize=18:antialias=true:autohint=true" };
-static const char col_gray1[]       = "#21242b";            /* bar background */
-static const char col_gray2[]       = "#4b5263";            /* unfocused window border */
-static const char col_gray3[]       = "#4b5263";            /* unfocused tag text */
-static const char col_gray4[]       = "#dfe5f2";            /* focused tag text */
-static const char col_gray5[]       = "#21242b";            /* focused tag background */
-static const char col_gray6[]       = "#dfe5f2";            /* focused window border */
+static const char col_gray1[]       = "#21242b";    /* bar background */
+static const char col_gray2[]       = "#4b5263";    /* unfocused window border */
+static const char col_gray3[]       = "#4b5263";    /* unfocused tag text */
+static const char col_gray4[]       = "#dfe5f2";    /* focused tag text */
+static const char col_gray5[]       = "#21242b";    /* focused tag background */
+static const char col_gray6[]       = "#dfe5f2";    /* focused window border */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
         [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -41,8 +41,8 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "",         NULL,       NULL,       0,            1,           -1 },
+	{ "",         NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
 /* layout(s) */
