@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Roboto Mono:pixelsize=18:antialias=true:autohint=true";
 static char *font2[] = { "Font Awesome 5 Free Solid:pixelsize=18:antialias=true:autohint=true" };
 
 /* disable bold, italic and roman fonts globally */
@@ -170,7 +170,7 @@ static unsigned int defaultrcs = 256;
  * 7: Blinking st cursor
  * 8: Steady st cursor
  */
-static unsigned int cursorstyle = 5;
+static unsigned int cursorstyle = 1;
 static Rune stcursor = 0x2603; /* snowman (U+2603) */
 
 /*
