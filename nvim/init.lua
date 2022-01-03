@@ -3,7 +3,6 @@
 -- < init.lua >
 --  ----------
 --    \
---     \
 --        .--.
 --       |o_o |
 --       |:_/ |
@@ -26,7 +25,6 @@ vim.o.tabstop = 4
 vim.o.swapfile = false
 vim.o.encoding = 'UTF-8'
 vim.o.wildmenu = true
-vim.o.smarttab = true
 vim.o.smartcase = true
 vim.o.incsearch = true
 vim.o.cmdheight = 1
@@ -34,6 +32,7 @@ vim.o.expandtab = true
 vim.o.laststatus = 0
 vim.o.shiftwidth = 4
 vim.o.fileformat = 'unix'
+vim.o.softtabstop = 4
 vim.o.smartindent = true
 vim.o.termguicolors = true
 vim.g.onedarkhc_terminal_italics = 1
