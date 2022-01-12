@@ -73,7 +73,7 @@ static const char *termicmd[]  = { "st", NULL };
 static const char *lutricmd[]  = { "lutris", NULL };
 static const char *filemcmd[]  = { "pcmanfm", NULL };
 static const char *dmenucmd[]  = { "dmenu_run", NULL };
-static const char *browscmd[]  = { "librewolf", NULL };
+static const char *browscmd[]  = { "firefox", NULL };
 static const char *virtmcmd[]  = { "virt-manager", NULL };
 
 static Key keys[] = {
