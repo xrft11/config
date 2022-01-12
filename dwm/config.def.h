@@ -8,7 +8,7 @@ static const int showbar            = 1;	/* 0 means no bar */
 static const int topbar             = 1;	/* 0 means bottom bar */
 static const char *fonts[]          = { "Roboto Mono:pixelsize=18:antialias=true:autohint=true", "Font Awesome 5 Free Solid:pixelsize=18:antialias=true:autohint=true" };
 static const char col_gray1[]       = "#21242b";    /* bar background */
-static const char col_gray2[]       = "#21242b";    /* unfocused window border */
+static const char col_gray2[]       = "#5c6370";    /* unfocused window border */
 static const char col_gray3[]       = "#5c6370";    /* unfocused tag text */
 static const char col_gray4[]       = "#dfe5f2";    /* focused tag text */
 static const char col_gray5[]       = "#21242b";    /* focused tag background */
