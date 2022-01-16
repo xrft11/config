@@ -13,23 +13,21 @@
 --
 -----------------------------------
 
+vim.o.ls = 0
+vim.o.nu = true
+vim.o.ru = false
+vim.o.is = true
+vim.o.si = true
+vim.o.ff = 'unix'
 vim.o.hls = false
+vim.o.cul = true
+vim.o.swf = false
+vim.o.scs = true
+vim.o.tgc = true
 vim.o.wrap = false
-vim.g.t_Co = 256
-vim.o.mouse = 'a'
-vim.o.ruler = false
 vim.o.mouse = 'nicr'
-vim.o.number = true
 vim.o.backup = false
-vim.o.swapfile = false
-vim.o.encoding = 'UTF-8'
-vim.o.smartcase = true
-vim.o.incsearch = true
-vim.o.laststatus = 0
 vim.o.shiftwidth = 4
-vim.o.fileformat = 'unix'
-vim.o.smartindent = true
-vim.o.termguicolors = true
 vim.g.onedarkhc_terminal_italics = 1
 
 vim.cmd 'colo onedarkhc'
