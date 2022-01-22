@@ -26,7 +26,7 @@
 #define TEXTW(X)              (drw_fontset_getwidth(drw, (X)) + lrpad)
 
 /* enums */
-enum { SchemeNor, SchemeSel, SchemeOut, SchemeBor, SchemeLast }; /* color schemes */
+enum { SchemeNor, SchemeSel, SchemeBor, SchemeLast }; /* color schemes */
 
 struct item {
 	char *text;
@@ -128,7 +128,7 @@ drawitem(struct item *item, int x, int y, int w)
 	if (item == sel)
 		drw_setscheme(drw, scheme[SchemeSel]);
 	else if (item->out)
-		drw_setscheme(drw, scheme[SchemeOut]);
+		drw_setscheme(drw, scheme[SchemeNor]);
 	else
 		drw_setscheme(drw, scheme[SchemeNor]);
 
