@@ -27,6 +27,7 @@ vim.o.tgc = true
 vim.o.wrap = false
 vim.o.mouse = 'nicr'
 vim.o.backup = false
+vim.o.clipboard = 'unnamedplus'
 vim.o.shiftwidth = 4
 vim.g.onedarkhc_terminal_italics = 1
 
