@@ -95,8 +95,9 @@ static const char *termicmd[] = { "st", NULL };
 static const char *lutricmd[] = { "lutris", NULL };
 static const char *filemcmd[] = { "pcmanfm", NULL };
 static const char *dmenucmd[] = { "dmenu_run", NULL };
-static const char *browscmd[] = { "firefox", NULL };
+static const char *browscmd[] = { "firefox-esr", NULL };
 static const char *virtmcmd[] = { "virt-manager", NULL };
+static const char *cleancmd[] = { "bleachbit", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -107,7 +108,8 @@ static Key keys[] = {
         { MODKEY,                       XK_w,      spawn,          {.v = browscmd } },
         { MODKEY,                       XK_v,      spawn,          {.v = virtmcmd } },
         { MODKEY,                       XK_l,      spawn,          {.v = lutricmd } },
-	{ MODKEY,                       XK_b,      togglebar,      {0} },
+	{ MODKEY,                       XK_b,      spawn,          {.v = cleancmd } },
+	{ MODKEY|ShiftMask,             XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
